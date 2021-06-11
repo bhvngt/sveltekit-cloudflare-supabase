@@ -1,0 +1,21 @@
+name = "worker-site"
+type = 'javascript'
+account_id = ''
+route = ''
+zone_id = ''
+usage_model = ''
+workers_dev = true
+target_type = "javascript"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[build]
+command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
+
+
+
