@@ -1,4 +1,4 @@
 - `npm i`
 - add `account_id` and `zone_id` to `wrangler.toml`
-- add `supbase_url` and `supabase_apikey` to `src\routes\index.svelte`
+- add `supbaseUrl` and `supabaseKey` to `src\routes\index.svelte`
 - run `wrangler dev`
